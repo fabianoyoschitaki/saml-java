@@ -40,11 +40,11 @@ ext.versions = [
 dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: "${versions.springboot}"
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: "${versions.springboot}"
-
+	
+	// Project setup dependencies
     compile group: 'org.springframework.security', name: 'spring-security-core', version: "${versions.springsecurity}"
     compile group: 'org.springframework.security', name: 'spring-security-web', version: "${versions.springsecurity}"
     compile group: 'org.springframework.security', name: 'spring-security-config', version: "${versions.springsecurity}"
-
     compile group: 'org.springframework.security.extensions' , name: 'spring-security-saml2-core' , version : "${versions.samlcore}"
 
 
